@@ -1,0 +1,55 @@
+body{
+    background-color: #BFCBA8;
+
+    header{
+        margin-top: 78px;
+        h1{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 48px;
+            font-weight: 700;
+        }
+    }
+
+    main{
+        .btn{
+            background-color: #464F41;
+            width: 500px ;
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .btn2{
+            margin-top: -30px;
+            background-color: #fff;
+            width: 250px ;
+            border-radius: 30px;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .btn3{
+            background-color: #464F41;
+            width: 300px ;
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+    }
+
+    footer{
+        h1{
+            margin-top: 130px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 30px;
+            font-weight: normal; 
+            color: #000;
+        }
+        h2{
+            margin-top: -46px;
+            float : right;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 30px;
+            font-weight: normal; 
+            color: #000;
+        }
+    }
+
+
+}
