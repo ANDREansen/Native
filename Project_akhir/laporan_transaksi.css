@@ -1,0 +1,82 @@
+body{
+    background-color: #BFCBA8;
+}
+.judul{
+    font-size: 50px;
+    line-height: 4px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+p{
+    text-align: left;
+    font-family: 'montserrat';
+    margin-top: -15px;
+}
+.logo{
+    width: '350px';
+    margin-right: 150px;
+}
+.table-bordered{
+    margin-top: 20px;
+    font-family: Montserrat;
+    width: '1100px', 'auto';
+    text-align: center;
+    border-color: transparent;
+    background-color: #57786D;
+}
+.table-active{
+    text-align: left;
+    color: white;
+}
+.thead{
+    background-color: #464F41;
+    border-color: #57786D;
+    color: white;
+    border-color:transparent;
+}
+th{
+    text-align: center;
+}
+.ttd{
+    text-align: center; 
+    font-family: 'montserrat';
+    margin-right: 220px;
+}
+.nama{
+    margin-top: 50px;
+}
+.spacing{
+    color: transparent;
+}
+.btn-download{
+    font-family: Montserrat;
+    color: white;
+    width: 120px;
+    text-align: center;
+    background-color: #464F41;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+    margin-left: 850px;
+    margin-top: 100px;
+    padding: 1px;
+    position: fixed;
+}
+.btn-sm{
+    background-color: #464F41;
+    width: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+    margin-top: 20px;
+}
+.tombol{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    text-align: left;
+}
+#currentDate{
+    background-color: #BFCBA8;
+    border-width: 0px;
+    width: 110px;
+}

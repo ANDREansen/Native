@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="tambah_barang.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <title>Tambah Barang(Administrasi)</title>
+  </head>
+
+  <body>
+      <!-- Judul -->
+    <div class="container-xxl mt-3">
+        <h1 class="judul">MENU ADMINISTRASI</h1>
+        <div class="kolom">
+
+            <!-- Kolom Input -->
+            <form>
+                <div class="mb-3 row">
+                    <label for="inputKode" class="col-form-label">Kode Barang</label>
+                    <div class="col-sm-7">
+                    <input type="kodebarang" class="form-control" id="inputKode">
+                    </div>
+                </div>
+                <div class="mb-2 row">
+                    <label for="inputNama" class="col-form-label">Nama Barang</label>
+                    <div class="col-sm-7">
+                    <input type="namabarang" class="form-control" id="inputNama">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="inputStock" class="col-form-label">Stock</label>
+                    <div class="col-sm-7">
+                    <input type="jumlahstock" class="form-control" id="inputStock">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="inputHarga" class="col-form-label">Harga</label>
+                    <div class="col-sm-7">
+                    <input type="harga" class="form-control" id="inputHarga">
+                    </div>
+                </div>
+                <button type="button" class="btn btn-secondary btn-sm">Tambahkan</button>
+            </form><a href="ADMINISTRASI.html" class=" fixed-bottom btn tombol1">Kembali</a>
+            
+            
+
+            <!-- Tabel Daftar Penjualan Barang -->
+            <table class="table table-bordered">
+                <thead class="thead">
+                    <th colspan="5">DAFTAR BARANG PENJUALAN</th>
+                </thead>
+                <thead class="thead">
+                    <th>No</th>
+                    <th>Kode Barang</th>
+                    <th>Nama Barang</th>
+                    <th>Harga</th>
+                    <th>Stock</th>
+                </thead>
+                <tbody>
+                    <tr class="table-active">
+                        <th>1.</th>
+                        <td>Kab-873</td>
+                        <td>Kabel HDMI</td>
+                        <td>Rp. 25.000</td>
+                        <td>10</td>
+                    </tr>
+                    <tr class="table-active">
+                        <th>2.</th>
+                        <td>Kab-552</td>
+                        <td>Kabel LAN</td>
+                        <td>Rp. 36.000</td>
+                        <td>74</td>
+                    </tr>
+                    <tr class="table-active">
+                        <th>3.</th>
+                        <td>Hea-585</td>
+                        <td>Headset</td>
+                        <td>Rp. 70.000</td>
+                        <td>91</td>
+                    </tr>
+                    <tr class="table-active">
+                        <th>4.</th>
+                        <td>VGA-138</td>
+                        <td>VGA</td>
+                        <td>Rp. 2.500.000</td>
+                        <td>16</td>
+                    </tr>
+                    <tr class="table-active">
+                        <th>5.</th>
+                        <td>RAM</td>
+                        <td>RAM</td>
+                        <td>Rp. 660.000</td>
+                        <td>15</td>
+                    </tr>
+                    <tr class="table-active">
+                        <th>6.</th>
+                        <td>ROM-781</td>
+                        <td>ROM</td>
+                        <td>Rp. 500.000</td>
+                        <td>69</td>
+                    </tr>
+                    <tr class="table-active">
+                        <th>7.</th>
+                        <td>KAB-395</td>
+                        <td>Kabel USB Type C</td>
+                        <td>Rp. 24.000</td>
+                        <td>80</td>
+                    </tr>
+                    <tr class="table-active">
+                        <th>8.</th>
+                        <td>Kab-351</td>
+                        <td>Kabel USB Type B</td>
+                        <td>Rp. 22.000</td>
+                        <td>34</td>
+                    </tr>
+                    <tr class="table-active">
+                        <th>9.</th>
+                        <td>Mou-420</td>
+                        <td>Mouse</td>
+                        <td>Rp. 300.000</td>
+                        <td>86</td>
+                    </tr>
+                    <tr class="table-active">
+                        <th>10.</th>
+                        <td>Mou-195</td>
+                        <td>Mousepad</td>
+                        <td>Rp. 50.000</td>
+                        <td>4</td>
+                    </tr>
+                                        
+                </tbody>
+            </table>
+            <a href="verifikasi_data_baru.html" class="btn position-absolute end-0 btn-simpan">Simpan</a>
+        </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+   </body>
+</html>
